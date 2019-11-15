@@ -1,0 +1,17 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "scripts": {
+    "compress:css": "node-sass css/main.css css/style.css --output-style compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}
